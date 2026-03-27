@@ -1,0 +1,31 @@
+{
+  "name": "learn-openclaw",
+  "version": "0.1.0",
+  "description": "从零开始，12 节课掌握 OpenClaw — 特别强调安全实践",
+  "type": "module",
+  "scripts": {
+    "s01": "npx tsx agents/s01_first_claw.ts",
+    "s02": "npx tsx agents/s02_channels.ts",
+    "s03": "npx tsx agents/s03_models.ts",
+    "s04": "npx tsx agents/s04_skills.ts",
+    "s05": "npx tsx agents/s05_memory.ts",
+    "s06": "npx tsx agents/s06_mcp.ts",
+    "s07": "npx tsx agents/s07_skill_dev.ts",
+    "s08": "npx tsx agents/s08_security_basics.ts",
+    "s09": "npx tsx agents/s09_skill_audit.ts",
+    "s10": "npx tsx agents/s10_cve_defense.ts",
+    "s11": "npx tsx agents/s11_docker_deploy.ts",
+    "s12": "npx tsx agents/s12_enterprise.ts",
+    "full": "npx tsx agents/s_full.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "openai": "^4.80.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
