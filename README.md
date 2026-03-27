@@ -1,3 +1,5 @@
+[English](README-en.md) | 中文
+
 # Learn OpenClaw 🦞🔒
 
 > 从零开始，12 节课掌握 OpenClaw — 特别强调安全实践
