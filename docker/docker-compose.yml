@@ -1,0 +1,13 @@
+# Docker Compose 配置 — 用于 s11 教学
+# 待完善
+
+version: "3.9"
+
+services:
+  # openclaw-gateway:
+  #   image: openclaw/gateway:latest
+  #   ports:
+  #     - "3000:3000"
+  #   env_file: ../.env
+
+  # TODO: 添加完整的生产级服务配置
